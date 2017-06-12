@@ -19,7 +19,7 @@ public class MaxConsecutiveOnes {
         for (int i = 0; i < nums.length; i++) {
             str = str + nums[i];
         }
-        if (!str.contains("1")) {
+        if (!str.contains("1")) {            
             return 0;
         }
         String[] numsString = str.split("0");
